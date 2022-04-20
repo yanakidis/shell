@@ -6,9 +6,9 @@
 
 Для запуска нужно: \
 1) Сначала скомпилировать все объектные файлы: \
-make list.o 
-make tree.o 
-make exec.o 
+make list.o \
+make tree.o \
+make exec.o \
 P.S.: если были внесены изменения в один из файлов list.c , tree.c или exec.c, то достаточно 
 ввести только одну соответствующую команду make list.o , make tree.o , make exec.o 
 2) написать в командной строке: make shell - происходит компиляция 
