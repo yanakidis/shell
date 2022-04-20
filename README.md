@@ -1,2 +1,2 @@
 # shell
-Modeling the work of the shell INTERPRETER
+Modeling the work of the shell interpreter
