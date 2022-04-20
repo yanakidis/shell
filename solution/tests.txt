@@ -1,0 +1,26 @@
+cd ..
+pwd
+echo homedir: $HOME username: $USER
+cd
+pwd
+pwd > fpwd
+who >> fpwd
+cat < file.in > file.out (file.in должен существовать)
+cat < /dev/urandom | head -c 4096 > "file.bin"
+yes | head
+yes | yes | yes | yes | yes | yes | yes | yes | head
+cat < /dev/null | head | head | head | head | head
+pwd > current_dir.txt
+pwd | cat >> my_home.txt
+ls | cat | cat | cat | cat
+who | cat > who_am_i.txt | cat | cat | cat > who_am_i_not.txt
+yes | yes |yes |yes |yes |sleep 10 | pwd
+sleep 10 ; pwd
+sleep 10 & pwd
+sleep 5 & sleep 5 & sleep 5 & sleep 5 & sleep 5 &
+echo a b c > f; cat f & ls
+echo a b c > f; echo >> f; cat<f
+ls && who && pwd - тут будет выдана ошибка, так как не удовл синтаксису
+ls || who || pwd - аналогично
+cat f; date; pwd > zz
+date; (ls -l |cat -n)>f & pwd - здесь будет как вывод результата программы, так и вывод ошибки
