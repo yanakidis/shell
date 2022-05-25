@@ -1,4 +1,4 @@
-# shell
+# shell_interpreter
 ## Командный интерпретатор shell 
 Работает как Bash, только в более узком синтаксисе (он в syntax.txt) 
 
